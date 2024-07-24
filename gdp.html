@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Currency </title>
+
+        <link rel = "stylesheet" href = "style.css">
+
+    </head>
+    <style>
+
+        body{
+            background-color: white;
+            color: black;
+        }
+        p{
+            text-align: justify;
+            font-size: 30px;
+        }
+        main{
+            background-color: aliceblue;
+            display: contents;
+            flex-direction: column;
+            width: 100%;
+            margin: 30px;
+        }
+        section{
+            height: 650px;
+        }
+        
+    </style>
+
+    <body>
+        <nav class="navbar">
+        
+            <div class="wrapper">
+            <a href="index.html" id="navbar_logo"> <h1> FunEcon </h1> </a>
+            </div>
+            
+        </nav>
+
+        <ul class="navbar_menu">
+                
+            <li class="navbar_item">
+
+            <div class="dropdown">
+                <button class="dropbtn"> Economic Basics</button>
+                <div class="dropdown-content">
+                    <a href="#"><a href="supplydemand.html">Supply/Demand</a>
+                    <a href="#"><a href="gdp.html">Gross Domestic Product</a>
+                    <a href="#"><a href="inflationdeflation.html">Inflation/Deflation</a>
+                    <a href="#"><a href="fiscalmonetary.html">Fiscal vs Monetary Policy</a>
+                </div> 
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn"> How Prices and Resources Work</button>
+                <div class="dropdown-content">
+                    <a href="#"><a href="factorsofproduction.html">Factors of Production</a>
+                    <a href="#"><a href="ppf.html">Productions Possibility Frontier</a>
+                    <a href="#"><a href="elasticity.html">Price Elasticity</a>
+                    <a href="#"><a href="index.html">Price Floors/Ceilings</a>
+                    <a href="#"><a href="index.html">Implicit/Explicit Costs</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn"> Types of Competition and Businesses</button>
+                <div class="dropdown-content">
+                    <a href="#"><a href="monopoly.html">Monopoly</a>
+                    <a href="#"><a href="oligopoly.html">Oligopoly</a>
+                    <a href="#"><a href="perfectcompetition.html">Perfect Competition</a>
+                    <a href="#"><a href="monopolisticcompetition.html">Monopolistic Competition</a>
+                </div>
+            </div>
+
+
+            </li>
+            
+            
+        </ul>
+
+        <img  class="right-image" src="Images/GDP.png" width=600 height=400/>
+
+                <div class="text-box">
+                    <section>
+                    <h1>Gross Domestic Product</h1>
+                    <nav>
+                        <main>
+                            
+                    <div class="section">
+                    <p>
+                        <h1>
+
+                        Gross Domestic Product (GDP) is the measure of a country's total income. It represents the total value of all goods and services produced within the country in a given year. While GDP does not define the whole picture of how wealthy a country is, changes in GDP real income can give us a broader view of a country's growth. The four factors that affect GDP are consumption, investment, government expenditures, and the differnce between exports and imports. These factors are constantly changing due to changes in the economy and living standards. 
+                        
+                        </h1>
+
+                        <h1>
+                            To the right is a chart of the United States's GDP over the past 70 years. The trajectory is a positive slope, indicating that the U.S. is a growing economy and is accumulating more and more wealth. Additionally, because the increase in GDP each year indicates an increase in spending, this shows that the standards of living in the U.S. are increasing each year.
+                        </h1>
+                    </p>
+                    </div>
+                    </section>
+                </main>
+                </nav>
+             
+             <div class="main">
+                    
+                    
+                    <section>
+                    <h1> GDP Calculator</h1>
+                    <div class="gdp-calculator">
+                        <h1>GDP Calculator</h1>
+                        <form id="gdp-form">
+                            <label for="consumption">Consumption:</label> 
+                            <input type="number" id="consumption" name="consumption" required>
+                            <br>
+                    
+                            <label for="investment">Investment:</label> 
+                            <input type="number" id="investment" name="investment" required>
+                            <br>
+                    
+                            <label for="governmentExpenditure">Government Expenditure:</label> 
+                            <input type="number" id="governmentExpenditure" name="governmentExpenditure" required>
+                            <br>
+                    
+                            <label for="exports">Exports:</label> 
+                            <input type="number" id="exports" name="exports" required>
+                            <br>
+
+                            <label for="imports">Imports:</label> 
+                            <input type="number" id="imports" name="imports" required>
+                            <br>
+                    
+                            <button type="button" onclick="calculateGDP()">Calculate GDP</button>
+                        </form>
+                        <div id="gdpResult"></div>
+                    </div>
+                    <nav>
+                        <p>
+                            <h1>
+                                    To the right is a simple GDP calculator that calculates the total GDP based off the four factors of GDP. Consumption is what consumers in the economy spend their money on. It is the total value of all goods and services consumed by households such as cars, houses, food, clothing, healthcare and insurance. Investment is the spending on goods and services intended to create future wealth. Examples of investments are education, business inventories, and goods that can be resold at a higher price. Stock and bonds are also investments but do not count in GDP since they represent transfer in ownership of a business that may change in value over the next few years but not the current year. Government expenditures are spendings that the government consumes for providing public services, as well as government investment in infrastructure, defense, education, and healthcare. It does not include transfer payments like pensions and unemployment benefits, which are not made in exchange for goods and services. Lastly, net exports, which is the difference between a country's total exports (goods sold and sent to other countries) minus net imports (goods bought from other countries).
+                            </h1>
+                        </p>
+                        
+                </nav>
+                </section>
+                </div>
+                    
+                </div>
+             </div>
+             <script src="app.js"></script>
+                    
+            </div>
+        </div>
+
+        <footer>
+
+            <div class="footer">
+                <h3>© Copyright Kode 2024</h3>
+            </div>
+
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,383 @@
+body {
+    background-color: rgb(173, 209, 242);
+}
+section{
+    background-color: rgb(255, 255, 255);
+    flex-basis: 100%;
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1rcap;
+    word-spacing: 0.1px;
+    line-height: 1.5;
+}
+
+.section h1{
+    font-weight: bold;
+}
+
+.dropbtn {
+    background-color: rgb(123, 130, 128);
+    padding: 40px;
+    height: 20px;
+    width: 100%;
+    margin-left: 20px;
+    padding-left: 70px;
+    padding-right: 60px;
+}
+
+#navbar_logo{
+    background-color: rgb(31, 150, 235);
+    background-image: linear-gradient(margin-bottom, #0a07ac);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    align-items: center;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 4rem;
+    margin-left: -700px;
+    margin-top: 150px;
+}
+
+.navbar_menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    background-color: rgb(70, 4, 4);
+    height: 100px;
+    margin-bottom: 50px;
+    margin-left: 695px;
+    width: 1180px;
+    padding: 9px;
+    margin-top: -140px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    justify-content: space-between;
+    padding-left: 30px;
+    margin-left: 30px;
+}
+
+.dropdown-content {
+    position: absolute;
+    background-color: violet;
+    z-index: 1;
+    display: none;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-left: 20px;
+    width: 50%;
+}
+
+.dropdown-content:hover {
+    background-color: pink;
+    position: absolute;
+    width: 50%;
+}
+
+.dropdown-content:active {
+    background-color: antiquewhite;
+}
+
+/* Box that holds links */
+
+.dropdown-content2 {
+    position: absolute;
+    background-color: rgba(240, 119, 6, 0.876);
+    z-index: 1;
+    display: none;
+}
+/* links */
+.dropdown-content a{
+    color: darkcyan;
+    display: block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color:rgb(116, 171, 222);
+}
+.dropdown-content2 a:hover {
+    background-color: rgb(116,171,222);
+}
+
+.dropdown-content a:active {
+    background-color: deeppink;
+}
+.dropdown-content2 a:active {
+    background-color: deeppink;
+}
+.dropdown2:hover .dropdown-content2  {
+    display: block;
+}
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+    padding-left: 50px;
+    margin-left: 50px;
+}
+
+h1 {
+    margin-left: 5%;
+}
+
+h2 {
+    margin-left: 5%;
+}
+nav{
+    margin-bottom: 90px;
+    margin-left: 0px;
+    width: 100%;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1915px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    margin-left: -20px;
+    height: 300px;
+}
+
+div.relative{
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+.right-image {
+    float: right;
+    max-width: 700px;
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-left: 10px;
+    margin-top: 30px;
+    border: rgb(94, 20, 20);
+}
+
+.coin-img2 {
+    float: right;
+    margin-right: 70px;
+    margin-bottom: 100px;
+}
+
+.text-box p {
+    font-size: medium;
+    overflow: hidden; /* To ensure the wrapping effect */
+}
+
+.supply-demand-section{
+    float: right;
+    width: 300px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+}
+
+.ppf{
+    float: right;
+    width: 300px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+}
+
+.real-wealth-calculator{
+    float: right;
+    width: 500px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    margin-bottom: 90px;
+}
+
+.gdp-calculator {
+    float: right;
+    height: 550px;
+    width: 580px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0px;
+}
+
+.gdp-calculator h1 {
+    text-align: center;
+}
+
+.gdp-calculator form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gdp-calculator label, .gdp-calculator input, .gdp-calculator button {
+    margin: 2px 0;
+}
+
+.PED{
+    float: right;
+    max-width: 400px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px #aaa;
+    background-color: #99b2ce;
+}
+
+.PED body{
+    font-family: Arial, sans-serif;
+}
+
+.PED button{
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.PED button:hover{
+    background-color: #0056b3;
+}
+
+#result {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.wrapper{
+    margin: 100px auto;
+    width: 20%;
+}
+
+.text-box {
+    color: black;
+}
+
+.text-box p {
+    font-size: medium;
+    overflow: hidden; /* To ensure the wrapping effect */
+}
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul{
+	list-style: none;
+    margin-left: 200px;
+}
+
+.footer {
+    background-color: grey;
+    max-width: 1915px;
+    height: 1px;
+    margin-bottom: -8px;
+    margin-left: -20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+    line-height: 1 rem;
+};
+
+@media  screen and (max-width: 960px) {
+    .navbar_container {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0;
+    }
+
+    .navbar_menu{
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: -1000px;
+        opacity: 0;
+        transition: all 0.5s ease;
+        height: 50vh;
+        z-index: -1;
+    }
+
+    .navbar__menu.active {
+        background-color: aqua;
+        top: 100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+        height: 50vh;
+        font-size: 1.6 rem;
+    }
+
+    #navbar_logo{
+        padding-left: 25px;
+    }
+
+    .navbar_toggle_.bar{
+        width: 25px;
+        height: 5px;
+        margin: 5px auto;
+        transition: all 0.4s ease-in-out;
+        background-color: white;
+    }
+
+    .navbar_item{
+        width: 100%;
+    }
+
+    .navbar__links{
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+
+    #mobile-menu{
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        transform: translate(5%, 20%);
+    }
+
+    .navbar_btn{
+        padding-bottom: 2rem;
+    }
+
+    .navbar_toggle .bar{
+        display: block;
+        cursor: pointer;
+    }
+}
